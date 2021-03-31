@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.tittle h2 {
+    color: #f96443;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Alegreya Sans', sans-serif;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+/*   ============================ Header-Css Start ============================   */
+
+header {
+    padding: 10px 0;
+    background: #1e272e;
+}
+
+header p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #babbbb;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+header a {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #babbbb;
+    display: inline-block;
+    margin-right: 10px;
+    transition: .4s;
+}
+
+header a:hover {
+    color: tomato;
+}
+
+
+/*   ============================ Header-Css Start ============================   */
+
+
+/*   ============================ Nav- Css Start ============================   */
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+
+nav .nav-logo {
+    width: 220px;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav {
+    background: rgba(34, 34, 34, 0.5);
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #dddddd;
+    font-family: 'Open Sans', sans-serif;
+    transition: .5s;
+    margin: 0 15px;
+}
+
+nav ul li a:hover {
+
+    color: #f96443;
+}
+
+
+nav .button a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #dddddd;
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: .4s;
+    background: #f96443;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 2px solid #f96443;
+}
+
+nav .button a:hover {
+    background: transparent;
+    color: #f96443;
+}
+
+/*  ============================ Nav- Css End ============================  */
+
+/*  ============================ banner- Css start ============================ */
+
+#banner {
+    background: url(../image/banner.png) no-repeat center;
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+
+#banner .profile img {
+    margin-left: 65px;
+}
+
+
+#banner .profile h3 {
+    margin-left: 95px;
+    margin-top: 30px;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#banner .data .tittle {
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+#banner .data p {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    ont-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 30px;
+}
+
+#banner .data span {
+    display: block;
+}
+
+.tel-email {
+    font-size: 30px;
+    font-weight: 400;
+    color: #f96443;
+    font-family: 'Alegreya Sans', sans-serif;
+    display: table;
+    transition: .4s;
+    }
+
+    .tel-email:hover {
+        color: #fb532e;
+    }
+
+    /*============================ Banner- Css End ============================*/
+
+
+    /*============================ About- Css End ============================ */
+
+    #about {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        background: #1f1f1f;
+    }
+
+    #about .row {
+        justify-content: space-around;
+    }
+
+    #about .about-left h5 {
+        font-size: 32px;
+        color: #fff;
+        font-weight: 600;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    #about .about-left h5 {
+        font-size: 32px;
+        color: #fff;
+        font-weight: 600;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    #about .about-left h5 span {
+        display: block;
+    }
+
+    #about .about-left p {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 500;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin-bottom: 50px;
+    }
+
+
+    #about .about-right p {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 500;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin-bottom: 75px;
+    }
+
+
+    #about .about-right h3 {
+        font-size: 45px;
+        color: #fff;
+        font-weight: 600;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin-top: 75px;
+        margin-bottom: 30px;
+    }
+
+    #about .about-right h3 span {
+        display: block;
+    }
+
+    /*   ============================ About- Css End ============================   */
+
+
+    /*   ============================ service- Css Start ============================   */
+
+    #service {
+        padding: 100px 0;
+        background: #252525;
+    }
+
+    #service .slick-slide img {
+        display: initial;
+    }
+
+    #service .item {
+        padding: 50px 40px;
+        background: #222;
+        text-align: center;
+        margin: 15px 25px;
+        position: relative;
+        transition: .4s;
+    }
+
+    #service .item .icon {
+        margin-bottom: 35px;
+    }
+
+    #service .item h4 {
+        font-size: 28px;
+        color: #fff;
+        font-weight: 600;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin-bottom: 30px;
+        transition: .4s;
+    }
+
+    #service .item p {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 500;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin-bottom: 30px;
+    }
+
+    #service .item p span {
+        display: block;
+    }
+
+    #service .item .shape {
+        transition: .2s;
+        margin: 0 -55px;
+    }
+
+    #service .item a {
+        padding: 10px 15px;
+        background: #dc644b;
+        margin: 0 5px;
+        transition: .4s;
+        opacity: 0;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 500;
+        font-family: 'Montserrat Alternates', sans-serif;
+        border: 1px solid #dc644b;
+        border-radius: 5px;
+    }
+
+    #service .item:hover {
+        background: #161616;
+    }
+
+    #service .item:hover h4 {
+        color: #dc644b;
+    }
+
+    #service .item:hover a {
+        opacity: 1;
+    }
+
+    #service .item:hover .shape {
+        margin: 0;
+    }
+
+    #service .item:hover .s-bg {
+        opacity: 1;
+    }
+
+    #service .item .s-bg {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        width: 100%;
+        height: 100%;
+        background: #dc644b;
+        z-index: -1;
+        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+        opacity: 0;
+        transition: .4s;
+}
+
+
+#service .servicer-slider .slick-dots {
+    position: absolute;
+    left: 50%;
+    bottom: -35px;
+    transform: translateX(-50%);
+}
+
+#service .servicer-slider ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+#service .servicer-slider ul li button {
+    width: 20px;
+    height: 6px;
+    font-size: 0;
+    background: #494949;
+    border: none;
+    transition: .4s;
+}
+
+#service .servicer-slider ul .slick-active button {
+    width: 40px;
+    background: #d6653d;
+}
+
+/*   ============================ service- Css End ============================   */
