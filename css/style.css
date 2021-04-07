@@ -172,178 +172,178 @@ nav .button a:hover {
     font-family: 'Alegreya Sans', sans-serif;
     display: table;
     transition: .4s;
-    }
+}
 
-    .tel-email:hover {
-        color: #fb532e;
-    }
+.tel-email:hover {
+    color: #fb532e;
+}
 
-    /*============================ Banner- Css End ============================*/
-
-
-    /*============================ About- Css End ============================ */
-
-    #about {
-        padding-top: 100px;
-        padding-bottom: 60px;
-        background: #1f1f1f;
-    }
-
-    #about .row {
-        justify-content: space-around;
-    }
-
-    #about .about-left h5 {
-        font-size: 32px;
-        color: #fff;
-        font-weight: 600;
-        font-family: 'Montserrat Alternates', sans-serif;
-        margin-top: 40px;
-        margin-bottom: 30px;
-    }
-
-    #about .about-left h5 {
-        font-size: 32px;
-        color: #fff;
-        font-weight: 600;
-        font-family: 'Montserrat Alternates', sans-serif;
-        margin-top: 40px;
-        margin-bottom: 30px;
-    }
-
-    #about .about-left h5 span {
-        display: block;
-    }
-
-    #about .about-left p {
-        font-size: 20px;
-        color: #fff;
-        font-weight: 500;
-        font-family: 'Montserrat Alternates', sans-serif;
-        margin-bottom: 50px;
-    }
+/*============================ Banner- Css End ============================*/
 
 
-    #about .about-right p {
-        font-size: 20px;
-        color: #fff;
-        font-weight: 500;
-        font-family: 'Montserrat Alternates', sans-serif;
-        margin-bottom: 75px;
-    }
+/*============================ About- Css End ============================ */
+
+#about {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background: #1f1f1f;
+}
+
+#about .row {
+    justify-content: space-around;
+}
+
+#about .about-left h5 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#about .about-left h5 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#about .about-left h5 span {
+    display: block;
+}
+
+#about .about-left p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 50px;
+}
 
 
-    #about .about-right h3 {
-        font-size: 45px;
-        color: #fff;
-        font-weight: 600;
-        font-family: 'Montserrat Alternates', sans-serif;
-        margin-top: 75px;
-        margin-bottom: 30px;
-    }
-
-    #about .about-right h3 span {
-        display: block;
-    }
-
-    /*   ============================ About- Css End ============================   */
+#about .about-right p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 75px;
+}
 
 
-    /*   ============================ service- Css Start ============================   */
+#about .about-right h3 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
 
-    #service {
-        padding: 100px 0;
-        background: #252525;
-    }
+#about .about-right h3 span {
+    display: block;
+}
 
-    #service .slick-slide img {
-        display: initial;
-    }
+/*   ============================ About- Css End ============================   */
 
-    #service .item {
-        padding: 50px 40px;
-        background: #222;
-        text-align: center;
-        margin: 15px 25px;
-        position: relative;
-        transition: .4s;
-    }
 
-    #service .item .icon {
-        margin-bottom: 35px;
-    }
+/*   ============================ service- Css Start ============================   */
 
-    #service .item h4 {
-        font-size: 28px;
-        color: #fff;
-        font-weight: 600;
-        font-family: 'Montserrat Alternates', sans-serif;
-        margin-bottom: 30px;
-        transition: .4s;
-    }
+#service {
+    padding: 100px 0;
+    background: #252525;
+}
 
-    #service .item p {
-        font-size: 16px;
-        color: #fff;
-        font-weight: 500;
-        font-family: 'Montserrat Alternates', sans-serif;
-        margin-bottom: 30px;
-    }
+#service .slick-slide img {
+    display: initial;
+}
 
-    #service .item p span {
-        display: block;
-    }
+#service .item {
+    padding: 50px 40px;
+    background: #222;
+    text-align: center;
+    margin: 15px 25px;
+    position: relative;
+    transition: .4s;
+}
 
-    #service .item .shape {
-        transition: .2s;
-        margin: 0 -55px;
-    }
+#service .item .icon {
+    margin-bottom: 35px;
+}
 
-    #service .item a {
-        padding: 10px 15px;
-        background: #dc644b;
-        margin: 0 5px;
-        transition: .4s;
-        opacity: 0;
-        font-size: 16px;
-        color: #fff;
-        font-weight: 500;
-        font-family: 'Montserrat Alternates', sans-serif;
-        border: 1px solid #dc644b;
-        border-radius: 5px;
-    }
+#service .item h4 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 30px;
+    transition: .4s;
+}
 
-    #service .item:hover {
-        background: #161616;
-    }
+#service .item p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 30px;
+}
 
-    #service .item:hover h4 {
-        color: #dc644b;
-    }
+#service .item p span {
+    display: block;
+}
 
-    #service .item:hover a {
-        opacity: 1;
-    }
+#service .item .shape {
+    transition: .2s;
+    margin: 0 -55px;
+}
 
-    #service .item:hover .shape {
-        margin: 0;
-    }
+#service .item a {
+    padding: 10px 15px;
+    background: #dc644b;
+    margin: 0 5px;
+    transition: .4s;
+    opacity: 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border: 1px solid #dc644b;
+    border-radius: 5px;
+}
 
-    #service .item:hover .s-bg {
-        opacity: 1;
-    }
+#service .item:hover {
+    background: #161616;
+}
 
-    #service .item .s-bg {
-        position: absolute;
-        top: 15px;
-        left: 15px;
-        width: 100%;
-        height: 100%;
-        background: #dc644b;
-        z-index: -1;
-        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-        opacity: 0;
-        transition: .4s;
+#service .item:hover h4 {
+    color: #dc644b;
+}
+
+#service .item:hover a {
+    opacity: 1;
+}
+
+#service .item:hover .shape {
+    margin: 0;
+}
+
+#service .item:hover .s-bg {
+    opacity: 1;
+}
+
+#service .item .s-bg {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 100%;
+    height: 100%;
+    background: #dc644b;
+    z-index: -1;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    opacity: 0;
+    transition: .4s;
 }
 
 

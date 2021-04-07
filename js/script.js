@@ -1,3 +1,11 @@
+// js 
+
+
+// -----smooth scroll
+var scroll = new SmoothScroll('a[href*="#"]');
+// -----smooth scroll
+
+
 $('.servicer-slider').slick({
     dots: true,
     arrows: false,

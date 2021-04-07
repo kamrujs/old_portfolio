@@ -1,0 +1,160 @@
+@media (min-width:320px) and (max-width:575px) {
+    .tittle {
+        text-align: center;
+    }
+
+    .tittle h2 {
+        font-size: 22px;
+    }
+
+    .tel-email {
+        font-size: 25px;
+    }
+
+
+
+
+    /* -----header */
+    nav .nav-logo {
+        width: 150px;
+    }
+
+    nav .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none !important;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header p {
+        margin: 0;
+    }
+
+    /* ----------Nav Start */
+    nav .navbar-collapse {
+        background: #0009;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+    }
+
+    nav button i {
+        color: #fff;
+    }
+
+    nav .navbar-collapse {
+        text-align: right;
+    }
+
+    nav .navbar-collapse ul li a {
+        display: inline-block;
+        margin-top: -10px;
+    }
+
+    nav .button {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* ----------Nav end */
+
+
+    /* ----------banner start */
+    #banner .profile img {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #banner .profile h3 {
+        margin-left: 0;
+        margin-top: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #banner .data p {
+        font-size: 25px;
+    }
+
+    #banner {
+        padding-top: 140px;
+        padding-bottom: 35px;
+    }
+
+    /* ----------banner end */
+
+
+    /* ----------about start */
+    #about {
+        padding-top: 40px;
+        padding-bottom: 35px;
+    }
+
+    #about .about-left p {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    #about .about-left h5 {
+        font-size: 25px;
+    }
+
+    #about .about-right h3 {
+        font-size: 29px;
+        margin-top: 60px;
+        margin-bottom: 5px;
+    }
+
+    #about .about-right p {
+        margin-bottom: 15px;
+    }
+
+    /* ----------about end */
+
+
+    /* ----------service start */
+    #service {
+        padding: 40px 0;
+    }
+
+    #service .item .icon {
+        width: 50px;
+    }
+
+    #service .item {
+        padding: 30px 10px;
+    }
+
+    #service .item h4 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    #service .item p {
+        font-size: 13px;
+    }
+
+    service .item a {
+        padding: 10px 10px;
+    }
+
+    /* ----------service end */
+
+
+
+
+
+
+
+
+
+
+
+}
