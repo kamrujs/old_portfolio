@@ -2,6 +2,13 @@
 
 
 // -----smooth scroll
+AOS.init({
+    duration: 1000,
+});
+// -----smooth scroll
+
+
+// -----smooth scroll
 var scroll = new SmoothScroll('a[href*="#"]');
 // -----smooth scroll
 
@@ -10,7 +17,7 @@ $('.servicer-slider').slick({
     dots: true,
     arrows: false,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     speed: 350,
     slidesToShow: 3,
     slidesToScroll: 1,

@@ -24,6 +24,11 @@ p {
     margin: 0;
 }
 
+.tittle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .tittle h2 {
     color: #f96443;
     font-size: 28px;
@@ -37,7 +42,7 @@ p {
 
 header {
     padding: 10px 0;
-    background: #1e272e;
+    background: #2e2e2e;
 }
 
 header p {
@@ -187,6 +192,10 @@ nav .button a:hover {
     padding-top: 100px;
     padding-bottom: 60px;
     background: #1f1f1f;
+}
+
+#about .tittle {
+    text-align: left;
 }
 
 #about .row {
@@ -372,6 +381,93 @@ nav .button a:hover {
 #service .servicer-slider ul .slick-active button {
     width: 40px;
     background: #d6653d;
+}
+
+/*   ============================ service- Css End ============================   */
+
+/*   ============================ service- Css End ============================   */
+footer {
+    background: #161616;
+    padding: 40px 0;
+}
+
+footer form {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer input {
+    width: 49%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #929292;
+    font-family: 'Alegreya Sans', sans-serif;
+    background: transparent;
+    border: 1px solid #79422f;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: px;
+}
+
+footer textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #929292;
+    font-family: 'Alegreya Sans', sans-serif;
+    background: transparent;
+    border: 1px solid #79422f;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    resize: none;
+    height: 150px;
+}
+
+footer form button {
+    font-size: 16px;
+    font-weight: 400;
+    color: #f2f2f2;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 5px 10px;
+    background: #f96443;
+    border-radius: 8px;
+    margin-left: auto;
+    display: block;
+}
+
+footer h2 {
+    color: #f96443;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Alegreya Sans', sans-serif;
+    display: inline-block;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+#footer_bottom {
+    text-align: center;
+    background: #202020;
+    padding-bottom: 20px;
+}
+
+#footer_bottom img {
+    width: 10%;
+}
+
+#footer_bottom p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #dddddd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#footer_bottom p span {
+    color: #fb532e;
 }
 
 /*   ============================ service- Css End ============================   */

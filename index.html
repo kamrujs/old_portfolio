@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -89,7 +90,7 @@
                         <a class="nav-link" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact </a>
+                        <a class="nav-link" href="#footer_se">Contact </a>
                     </li>
                     <!-- <li class="nav-item dropdown">
 
@@ -124,13 +125,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="profile">
+                    <div class="profile" data-aos="zoom-in" data-aos-delay="100">
                         <img src="image/profile.png" alt="profile">
                         <h3>KAmruj Z AKASH </h3>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="data">
+                    <div class="data" data-aos="fade-left" data-aos-delay="500">
                         <div class="tittle">
                             <h2>Brief introduction</h2>
                             <img src="image/shape.png" alt="shape">
@@ -156,11 +157,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <div class="tittle">
+                    <div class="tittle" data-aos="fade-right">
                         <h2>About Me</h2>
                         <img src="image/shape.png" alt="shape">
                     </div>
-                    <div class="about-left">
+                    <div class="about-left" data-aos="fade-right" data-aos-delay="500">
                         <h5>
                             <span>I’m front-end web developer and</span>
                             <span>also a graphic designer,</span>
@@ -175,12 +176,14 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="about-right">
-                        <h3>Any Type Of Query
+                        <h3 data-aos="zoom-in" data-aos-delay="500">Any Type Of Query
                             <span>& Discussion</span>
                         </h3>
-                        <p>Let’s talk with me</p>
-                        <a class="tel-email" href="tel:+880 1811 80 33 98">P : +880 1811 80 33 98</a>
-                        <a class="tel-email" href="mailto:source.akash@gmail.com">E : source.akash@gmail.com</a>
+                        <p data-aos="zoom-out-down" data-aos-delay="800">Let’s talk with me</p>
+                        <a data-aos="zoom-out-down" data-aos-delay="1000" class="tel-email"
+                            href="tel:+880 1811 80 33 98">P : +880 1811 80 33 98</a>
+                        <a data-aos="zoom-out-down" data-aos-delay="1000" class="tel-email"
+                            href="mailto:source.akash@gmail.com">E : source.akash@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -195,11 +198,11 @@
 
     <section id="service">
         <div class="container">
-            <div class="tittle">
+            <div class="tittle" data-aos="fade-right" data-aos-delay="100">
                 <h2>My Service</h2>
                 <img src="image/shape.png" alt="shape">
             </div>
-            <div class="servicer-slider">
+            <div class="servicer-slider" data-aos="fade-down" data-aos-delay="600">
 
                 <div class="item">
                     <div class="s-item">
@@ -269,6 +272,40 @@
     <!-- ============================ service-End ============================ -->
 
 
+    <!-- ============================ service-End ============================ -->
+    <footer id="footer_se">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h2 data-aos="fade-down">Contact with Me</h2>
+                    <form>
+                        <input type="text" placeholder="Your Name" data-aos="fade-right" data-aos-delay="100">
+                        <input type="email" placeholder="Your E-mail" data-aos="fade-right" data-aos-delay="300">
+                        <textarea placeholder="Your Massage" data-aos="fade-right" data-aos-delay="600"></textarea>
+                        <button type="submit" data-aos="zoom-out" data-aos-delay="800">Send Massage</button>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="so_link" data-aos="fade-down">
+                        <h2>Follow Me on</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="instra_pic" data-aos="fade-down">
+                        <h2>Instragram Photos</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section id="footer_bottom">
+        <a href="#"> <img src="image/logo.png" alt="logo"></a>
+        <p>All Right Recived By <span>kamruj</span> in 2021</p>
+    </section>
+    <!-- ============================ service-End ============================ -->
+
+
 
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -277,6 +314,7 @@
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
 
 </body>
