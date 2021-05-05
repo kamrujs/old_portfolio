@@ -470,4 +470,10 @@ footer h2 {
     color: #fb532e;
 }
 
+#footer_bottom .embedsocial-hashtag {
+    display: flex;
+}
+
+
+
 /*   ============================ service- Css End ============================   */

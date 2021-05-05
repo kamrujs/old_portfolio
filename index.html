@@ -61,7 +61,7 @@
     <!-- ============================ Nav-Start ============================ -->
 
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" data-aos="fade-down">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img class="nav-logo" src="image/logo.png" alt="akashlogo">
@@ -125,13 +125,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="profile" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="profile" data-aos="fade-up">
                         <img src="image/profile.png" alt="profile">
                         <h3>KAmruj Z AKASH </h3>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="data" data-aos="fade-left" data-aos-delay="500">
+                    <div class="data" data-aos="fade-left" data-aos-delay="200">
                         <div class="tittle">
                             <h2>Brief introduction</h2>
                             <img src="image/shape.png" alt="shape">
@@ -161,7 +161,7 @@
                         <h2>About Me</h2>
                         <img src="image/shape.png" alt="shape">
                     </div>
-                    <div class="about-left" data-aos="fade-right" data-aos-delay="500">
+                    <div class="about-left" data-aos="fade-right" data-aos-delay="150">
                         <h5>
                             <span>I’m front-end web developer and</span>
                             <span>also a graphic designer,</span>
@@ -176,14 +176,16 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="about-right">
-                        <h3 data-aos="zoom-in" data-aos-delay="500">Any Type Of Query
+                        <h3 data-aos="fade-down" data-aos-delay="400">Any Type Of Query
                             <span>& Discussion</span>
                         </h3>
-                        <p data-aos="zoom-out-down" data-aos-delay="800">Let’s talk with me</p>
-                        <a data-aos="zoom-out-down" data-aos-delay="1000" class="tel-email"
-                            href="tel:+880 1811 80 33 98">P : +880 1811 80 33 98</a>
-                        <a data-aos="zoom-out-down" data-aos-delay="1000" class="tel-email"
-                            href="mailto:source.akash@gmail.com">E : source.akash@gmail.com</a>
+                        <p data-aos="fade-down" data-aos-delay="450">Let’s talk with me</p>
+                        <div data-aos="fade-down" data-aos-delay="500">
+                            <a class="tel-email" href="tel:+880 1811 80 33 98">P
+                                : +880 1811 80 33 98</a>
+                            <a class="tel-email" href="mailto:source.akash@gmail.com">E : source.akash@gmail.com</a>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -198,11 +200,11 @@
 
     <section id="service">
         <div class="container">
-            <div class="tittle" data-aos="fade-right" data-aos-delay="100">
+            <div class="tittle" data-aos="fade-down">
                 <h2>My Service</h2>
                 <img src="image/shape.png" alt="shape">
             </div>
-            <div class="servicer-slider" data-aos="fade-down" data-aos-delay="600">
+            <div class="servicer-slider" data-aos="fade-down" data-aos-delay="200">
 
                 <div class="item">
                     <div class="s-item">
@@ -275,24 +277,36 @@
     <!-- ============================ service-End ============================ -->
     <footer id="footer_se">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
+            <div class="row justify-content-between">
+                <div class="col-lg-6">
                     <h2 data-aos="fade-down">Contact with Me</h2>
                     <form>
-                        <input type="text" placeholder="Your Name" data-aos="fade-right" data-aos-delay="100">
-                        <input type="email" placeholder="Your E-mail" data-aos="fade-right" data-aos-delay="300">
-                        <textarea placeholder="Your Massage" data-aos="fade-right" data-aos-delay="600"></textarea>
-                        <button type="submit" data-aos="zoom-out" data-aos-delay="800">Send Massage</button>
+                        <input type="text" placeholder="Your Name" data-aos="fade-right" data-aos-delay="80">
+                        <input type="email" placeholder="Your E-mail" data-aos="fade-right" data-aos-delay="200">
+                        <textarea placeholder="Your Massage" data-aos="fade-right" data-aos-delay="300"></textarea>
+                        <button type="submit" data-aos="zoom-out" data-aos-delay="350">Send Massage</button>
                     </form>
                 </div>
-                <div class="col-lg-4">
-                    <div class="so_link" data-aos="fade-down">
-                        <h2>Follow Me on</h2>
-                    </div>
-                </div>
-                <div class="col-lg-3">
+
+                <div class="col-lg-5">
                     <div class="instra_pic" data-aos="fade-down">
                         <h2>Instragram Photos</h2>
+                        <!-- <div class="instra_album">
+                            <div class="embedsocial-hashtag" data-ref="1962b81681a6ca3108e963c6e0b2ada2dc07dae0"></div>
+                            <script>
+                                (function (d, s, id) {
+                                    var js;
+                                    if (d.getElementById(id)) {
+                                        return;
+                                    }
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = "https://embedsocial.com/cdn/ht.js";
+                                    d.getElementsByTagName("head")[0].appendChild(js);
+                                }(document, "script", "EmbedSocialHashtagScript"));
+                            </script>
+
+                        </div> -->
                     </div>
                 </div>
             </div>
