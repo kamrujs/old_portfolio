@@ -2,6 +2,17 @@
 
 
 // -----smooth scroll
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 45) {
+        $(".menu").addClass("fix_menu")
+    } else {
+        $(".menu").removeClass("fix_menu")
+    }
+})
+// -----smooth scroll
+
+
+// -----smooth scroll
 AOS.init({
     duration: 600,
     once: true,
