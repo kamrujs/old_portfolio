@@ -25,6 +25,7 @@ var scroll = new SmoothScroll('a[href*="#"]');
 // -----smooth scroll
 
 
+// -----servicer scroll
 $('.servicer-slider').slick({
     dots: true,
     arrows: false,
@@ -61,3 +62,19 @@ $('.servicer-slider').slick({
         // instead of a settings object
     ]
 });
+// -----servicer scroll
+
+
+
+// ----mixit up
+// var mixer = mixitup(containerEl, {
+//     selectors: {
+//         target: '.mix-it'
+//     },
+//     animation: {
+//         duration: 300
+//     }
+// });
+
+var mixer = mixitup('.mix_deta');
+// -----mixit up
