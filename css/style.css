@@ -398,6 +398,7 @@ nav .button a:hover {
     background: #d6653d;
 }
 
+
 /*   ============================ service- Css End ============================   */
 
 /*   ============================ service- Css End ============================   */
@@ -417,6 +418,39 @@ nav .button a:hover {
     width: 30%;
     margin: 20px;
     height: 210px;
+    position: relative;
+}
+
+#portfolio .mix_deta .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.55);
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #f96443;
+}
+
+#portfolio .mix .overlay a {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #f96443;
+    border: 2px solid #f96443;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#portfolio .mix:hover .overlay {
+    opacity: 1;
 }
 
 #portfolio .mix_button button {
@@ -445,6 +479,7 @@ nav .button a:hover {
     margin-bottom: 30px;
     margin-top: 50px;
 }
+
 
 /*   ============================ service- Css End ============================   */
 
