@@ -486,11 +486,11 @@ nav .button a:hover {
 /*   ============================ service- Css End ============================   */
 footer {
     background: #161616;
-    padding: 40px 0;
+    padding-top: 40px;
 }
 
 footer form {
-
+    margin-bottom: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -582,11 +582,11 @@ footer .instra_album {
 
 #footer_bottom ul li a {
     display: inline-block;
-    font-size: 25px;
+    transition: .5s;
 }
 
 #footer_bottom ul li a i {
-    font-size: 25px;
+    font-size: 15px;
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -599,6 +599,10 @@ footer .instra_album {
 #footer_bottom ul li a:hover i {
     background: #f96443;
     color: #fff;
+}
+
+#footer_bottom ul li a:hover {
+    transform: translateY(-7px);
 }
 
 
