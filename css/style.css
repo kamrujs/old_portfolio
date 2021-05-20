@@ -419,6 +419,7 @@ nav .button a:hover {
     margin: 20px;
     height: 210px;
     position: relative;
+    overflow: hidden;
 }
 
 #portfolio .mix_deta .overlay {
@@ -473,6 +474,11 @@ nav .button a:hover {
 #portfolio .mix_deta img {
     width: 100%;
     height: 100%;
+    transition: .5s;
+}
+
+#portfolio .mix:hover img {
+    transform: scale(1.1);
 }
 
 #portfolio .mix_button {
