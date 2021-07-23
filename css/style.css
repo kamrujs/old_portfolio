@@ -454,6 +454,10 @@ nav .button a:hover {
     opacity: 1;
 }
 
+#portfolio .mix:hover .hover_img {
+    transform: translateY(-85%);
+}
+
 #portfolio .mix_button button {
     font-size: 18px;
     font-weight: 500;
@@ -467,14 +471,18 @@ nav .button a:hover {
     margin-left: 20px;
 }
 
+#portfolio .mix_button button:hover {
+    background: #9e412c;
+}
+
 #portfolio .mix_button .mixitup-control-active {
     background: #9e412c;
 }
 
 #portfolio .mix_deta img {
     width: 100%;
-    height: 100%;
-    transition: .5s;
+    /* height: 100%; */
+    transition: 2s;
 }
 
 #portfolio .mix:hover img {
