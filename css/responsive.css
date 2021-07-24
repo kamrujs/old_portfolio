@@ -141,15 +141,27 @@
         font-size: 13px;
     }
 
-    service .item a {
+    #service .item a {
         padding: 10px 10px;
     }
 
     /* ----------service end */
 
+    /* ----------service end */
+    #portfolio .mix_button button {
+        margin-bottom: 20px;
+    }
 
+    #portfolio .mix_deta .mix {
+        width: 46%;
+        margin: 2%;
+    }
 
+    /* ----------service end */
 
+    #footer_bottom img {
+        width: 35%;
+    }
 
 
 
